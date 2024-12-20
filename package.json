@@ -1,0 +1,14 @@
+{
+  "name": "find-unused-files",
+  "version": "1.0.0",
+  "description": "Утилита для поиска неиспользуемых файлов в проекте",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/parser": "^7.23.6",
+    "@babel/traverse": "^7.23.6",
+    "@vue/compiler-sfc": "^3.3.4"
+  },
+  "scripts": {
+    "find": "node index.js"
+  }
+}
